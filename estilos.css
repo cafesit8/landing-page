@@ -198,6 +198,8 @@ footer .content{
 }
 .content-total .logo{
     color: white;
+    filter: invert(1);
+    -webkit-filter: invert(1);
 }
 .content .contenedor1{
     width: 30em;
