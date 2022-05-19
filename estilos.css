@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+nav a {
+    padding: 10px 40px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.7);
+    font-size: 15px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+nav img{
+    width: 10em;
+}
+
+.section-1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8em;
+}
+
+.contenido{
+    width: 100%;
+    display: flex;
+    padding: 40px 40px;
+    justify-content: space-between;
+}
+
+.contenido .contenido__texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 60px;
+}
+
+.contenido .contenido__texto h1{ 
+    font-size: 2em;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+
+.contenido .contenido__texto a{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    width: 15em;
+    color: white;
+    font-weight: 400;
+    margin-top: 30px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.contenido img{
+    width: 38em;
+}
+
+.caja1{
+    padding: 50px 30px;
+    width: 90%;
+    height: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    box-shadow: 0px 2px 19px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 19px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 19px -10px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.caja1 .texto{
+    padding: 0 80px;
+}
+
+.caja1 .texto h2{
+    margin-bottom: 10px;
+}
+.caja1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.caja1 figure{
+    width: 60em;
+}
+
+.card{
+    position: absolute;
+    bottom: -118em;
+    width: 35em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.7);
+}
+
+.card a{
+    padding: 10px 30px;
+    background-color: hsl(322, 100%, 66%);
+    text-decoration: none;
+    margin-top: 15px;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 28em;
+    margin-top: 10em;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+ul li img{
+    margin-right: 15px;
+}
+ul li p{
+    display: inline;
+}
+footer .content-total{
+    width: 90%;
+}
+
+footer .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.content-total .logo{
+    color: white;
+}
+.content .contenedor1{
+    width: 30em;
+}
+.content .contenedor2, .contenedor3{
+    width: 18em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content .contenedor4{
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.content .contenedor4 ul{
+    display: flex;
+}
+
+.content .contenedor4 ul li{
+    font-size: 25px;
+    margin-right: 15px;
+    cursor: pointer;
+}
