@@ -18,7 +18,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 20px 40px;
 }
 
 nav a {
@@ -44,7 +44,6 @@ nav img{
 
 .section-1{
     width: 100%;
-    height: 100vh;
     background-image: url(images/bg-hero-desktop.svg);
     background-color: hsl(193, 100%, 96%);
     background-size: cover;
@@ -55,6 +54,7 @@ nav img{
 
 .contenido{
     width: 100%;
+    /* height: 50em; */
     display: flex;
     padding: 40px 40px;
     justify-content: space-between;
@@ -65,6 +65,7 @@ nav img{
     justify-content: center;
     flex-direction: column;
     padding-right: 60px;
+    width: 80%;
 }
 
 .contenido .contenido__texto h1{ 
@@ -97,7 +98,7 @@ nav img{
 .contenido figure img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .caja1{
@@ -120,26 +121,30 @@ nav img{
 
 .caja1 .texto{
     padding: 0 80px;
+    width: 50%;
 }
 
 .caja1 .texto h2{
     margin-bottom: 10px;
 }
-.caja1 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 
 .caja1 figure{
-    width: 60em;
+    width: 50%;
+    height: 100%;
+}
+
+.caja1 figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .card{
     position: absolute;
-    bottom: -118em;
+    bottom: 25em;
     width: 35em;
-    height: 10em;
+    color: black;
+    height: 8em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,6 +174,7 @@ nav img{
 }
 
 footer{
+    position: relative;
     width: 100%;
     height: 28em;
     margin-top: 10em;
@@ -233,7 +239,7 @@ footer .content{
     cursor: pointer;
 }
 
-@media (max-width:900px) {
+@media (max-width:700px) {
 
 
     /* body{
@@ -250,6 +256,7 @@ footer .content{
     }
 
     .contenido{
+        padding: 0 20px;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -281,6 +288,7 @@ footer .content{
 
     .caja1 .texto{
         padding: 10px;
+        width: 100%;
     }
     .caja1 figure{
         width: 15em;
@@ -299,9 +307,17 @@ footer .content{
     }
 
     footer{
+        width: 100%;
+        position: relative;
         height: 40%;
         font-size: 10px;
         padding: 50px 0;
+    }
+
+    .card{
+        position: absolute;
+        bottom: 50em;
+        height: 9em;
     }
 
     footer .content-total{
